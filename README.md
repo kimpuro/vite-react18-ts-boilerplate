@@ -1,30 +1,29 @@
-# React + TypeScript + Vite
+# KimPuro's Vite-React-TS boilerplate
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my Vite-React project template, designed for quick and efficient web development using TypeScript, React, Tailwind CSS. This template is built upon the `create vite` setup, enhanced with a custom folder structure tailored by KimPuro to provide a solid foundation for scaling and customization.
 
-Currently, two official plugins are available:
+## 🚀 Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To use this template, clone the repository and install the dependencies:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```bash
+git clone https://github.com/KimPuro/react-18-vite-boilerplate.git
+cd <project-directory>
+npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Then, start the development server:
+
+```bash
+npm run dev
+```
+
+Visit `http://localhost:3000` to view your project.
+
+## 💡 Features
+
+- **React**: Build UI components with React.
+- **Tailwind CSS**: A utility-first CSS framework for rapidly building custom designs.
+- **Flexible Structure**: Easily adaptable to fit various project needs.
+
+Feel free to use and modify this template for both personal and commercial projects. Happy coding!
