@@ -18,7 +18,7 @@ Then, start the development server:
 npm run dev
 ```
 
-Visit `http://localhost:3000` to view your project.
+Visit `http://localhost:5173` to view your project.
 
 ## 💡 Features
 
