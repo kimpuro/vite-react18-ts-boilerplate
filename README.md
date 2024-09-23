@@ -7,7 +7,7 @@ Welcome to my Vite-React project template, designed for quick and efficient web 
 To use this template, clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/KimPuro/react-18-vite-boilerplate.git
+git clone https://github.com/kimpuro/vite-react18-ts-boilerplate.git
 cd <project-directory>
 npm install
 ```
