@@ -6,9 +6,9 @@
     "module": "ESNext",
     "skipLibCheck": true,
     "paths": {
-      "@components/*": ["src/components/*"],
-      "@pages/*": ["src/pages/*"],
-      "@assets/*": ["src/assets/*"]
+      "@components/*": ["./src/components/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@assets/*": ["./src/assets/*"]
     },
 
     /* Bundler mode */
